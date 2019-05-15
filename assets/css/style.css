@@ -1,20 +1,27 @@
-html{
+h1{
 
-font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background: #4aaaa5;
+    border-color: #cccccc; 
+    color: #ffffff;
 
 }
 
-h1, h2, h3, h4, h5, h6{
 
-font-family: 'Georgia', Times, 'Times New Roman', serif;
+h2, h3, h4, h5, h6{
+
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    background: #ffffff;
     
 }
     
 
 body{
 
-
-width: 960px;
-vertical-align: center;
+    margin: auto;
+    width: 50%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 
 }
