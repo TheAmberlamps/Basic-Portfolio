@@ -16,9 +16,24 @@ h2, h3, h4, h5, h6{
     
 }
     
+.navbar{
 
-body{
+    float: right;
 
+}
+
+.content{
+
+    width: "960px";
+    color: #777777;
+    background: #ffffff;
+
+}
+
+
+ body{
+
+    background-image: "../images/topograhy.png"; 
     margin: auto;
     width: 50%;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
