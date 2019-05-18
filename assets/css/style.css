@@ -15,10 +15,10 @@ h2, h3, h4, h5, h6{
     background: #ffffff;
     
 }
-    
+
 .navbar{
 
-    float: right;
+    float:right;
 
 }
 
@@ -31,11 +31,22 @@ li{
 
 }
 
+img{
+
+    height:33.3%;
+    width:33.3%;
+
+}
+
 .content{
 
-    width: "960px";
+    /* display:inline; removed background  */
+    border-top-width:10px;
+    max-width:960px;
     color: #777777;
+    border-color: #f00606;
     background: #ffffff;
+    padding:20px;
 
 }
 
@@ -53,7 +64,8 @@ body{
 
 footer{
 
-    color: darkgray;
+    background-color: #666666;
+
 
 
 }
