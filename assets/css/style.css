@@ -8,10 +8,11 @@ h1{
 
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     background: #4aaaa5;
-    border-color: #cccccc; 
+    border-color: #4aaaa5; 
     color: #ffffff;
     text-align:center;
-    height:72px;
+    border: 40px;
+    
 
 }
 
@@ -24,7 +25,7 @@ h2, h3, h4, h5, h6{
     
 }
 
-.navbar{
+nav{
 
     float:right;
 
@@ -74,8 +75,10 @@ body{
 
 footer{
 
+    border-color: #4aaaa5;
+    border-top: 10px;
     background-color: #666666;
-
-
+    text-align: center;
+    height: 40px;
 
 }
