@@ -7,8 +7,11 @@ a{
 
 header{
 
-    width:960px;
+    /* width:960px; */
+    /* position:absolute; */
+    top:0;
     margin:auto;
+    background-color:#ffffff;
 
 }
 
@@ -29,6 +32,8 @@ h2, h3, h4, h5, h6{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
     background: #ffffff;
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray;
     
 }
 
@@ -82,8 +87,13 @@ float:right;
 .textitself{
 
     position: absolute;
-    top:40%;
-    left:50%;
+    bottom:10%;
+    width:33.3%;
+    border:10px solid #4aaaa5;
+    border-right:none;
+    border-left:none;
+    text-align:center;
+    /* left:70px; */
     color:white;
     background-color: #4aaaa5;
 
@@ -92,8 +102,9 @@ float:right;
 
 li{
 
+    column-count: 2;
+    column-width: 33.3%;
     display: inline;
-    list-style-type:none;
     margin: 0;
     padding: 0;
 
